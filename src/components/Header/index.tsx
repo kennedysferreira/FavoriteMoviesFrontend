@@ -1,10 +1,10 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { Input } from "../Input";
 import { CiSearch } from "react-icons/ci";
 import { useAuth } from "../../hook/auth";
 import { api } from "../../services/api";
 import avatarProfile from "../../assets/avatarProfile.svg";
-import { useEffect, useRef, useState } from "react";
+
 
 export const Header = ({ setSearch }: { setSearch: any }) => {
   const { user } = useAuth();
